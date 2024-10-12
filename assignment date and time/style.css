@@ -1,0 +1,15 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: rgb(56, 202, 242);
+}
+button{
+    background-color: aquamarine;
+    color: royalblue;
+}
+input{
+    background-color: aliceblue;
+    width: 200px;
+    text-align: center;
+}

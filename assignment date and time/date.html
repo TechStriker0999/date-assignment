@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<script>
+let weekArr = [ "sunday" , "monday" , "tuesday" , "wednesday" , "thursday" , "friday" , "saturday"] ;
+let monthArr = ["jan" , "feb" , "mar" , "apr" , "may" , "june" , "july" , "aug" , "sep" , "oct" , "nov" , "dec"] ;
+let currentDate = new Date();  
+let weekDay = currentDate. getDay();
+let month = currentDate.getMonth();
+let date = currentDate.getDate();
+let year = currentDate.getFullYear();
+let hour = currentDate.getHours();
+let minutes = currentDate.getMinutes();
+let seconds = currentDate.getSeconds();
+
+let outdate = `${date} ${weekArr[weekDay]} ${(month+1)} ${monthArr[month]} ${year} ${hour}:${minutes}:${seconds}`;
+
+console.log(outdate);
+</script>
+</body>
+</html>
